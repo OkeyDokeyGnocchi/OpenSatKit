@@ -5,7 +5,7 @@
 
 # Create welcome file with OSK reminder.
 touch ~/welcome_file
-echo 'Type osk and hit enter to run OpenSatKit' >> ~/welcome_file
+echo -e 'Welcome!\nType osk and hit enter to run OpenSatKit.\n' >> ~/welcome_file
 
 # Create alias in ~/.bashrc and have it cat the welcome file
 echo -e '\n cat ~/welcome_file' >> ~/.bashrc
