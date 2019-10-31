@@ -5,10 +5,10 @@
 
 # Create welcome file with OSK reminder.
 touch ~/welcome_file
-echo -e 'Welcome!\nType osk and hit enter to run OpenSatKit.\n' >> ~/welcome_file
+echo -e 'Welcome! Type osk and hit enter to run OpenSatKit.\n' >> ~/welcome_file
 
 # Create alias in ~/.bashrc and have it cat the welcome file
-echo -e '\n cat ~/welcome_file' >> ~/.bashrc
+echo -e '\ncat ~/welcome_file' >> ~/.bashrc
 echo -e '\n# Aliases created by touchups.sh' >> ~/.bashrc
 echo 'alias osk="ruby ~/OpenSatKit-master/cosmos/Launcher"' >> ~/.bashrc
 source ~/.bashrc
