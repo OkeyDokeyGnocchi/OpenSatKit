@@ -135,7 +135,7 @@ echo -e '\n# Aliases created by touchups.sh' >> ~/.bashrc
 echo 'alias osk="ruby ~/OpenSatKit-master/cosmos/Launcher"' >> ~/.bashrc
 
 cd ~/
-source .bashrc
+. .bashrc
 
 # Make 42 executable
 cd ~/OpenSatKit-master/42
