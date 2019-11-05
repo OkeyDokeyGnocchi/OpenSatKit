@@ -120,9 +120,9 @@ elif [[ -z $(which apt-get) ]]; then # no Ubuntu package manager
    exit 1
 fi
 
+# Runs the commands necessary to finish setting up OpenSatKit
 touchups()
 {
-# Runs the commands necessary to finish setting up OpenSatKit
 # Assumes that OSK is in ~/OpenSatKit-master/    (default)
 
 # Create welcome file with OSK reminder.
