@@ -120,6 +120,8 @@ elif [[ -z $(which apt-get) ]]; then # no Ubuntu package manager
    exit 1
 fi
 
+touchups():
+{
 # Runs the commands necessary to finish setting up OpenSatKit
 # Assumes that OSK is in ~/OpenSatKit-master/    (default)
 
@@ -142,5 +144,7 @@ chmod 557 42
 # Run bundle install to fix dependencies for "ruby Launcher"
 cd ~/OpenSatKit-master/cosmos
 bundle install
+}
 
 main
+touchups
