@@ -88,7 +88,9 @@ echo -e 'Welcome! Type osk and hit enter to run OpenSatKit.\n' >> ~/welcome_file
 echo -e '\ncat ~/welcome_file' >> ~/.bashrc
 echo -e '\n# Aliases created by touchups.sh' >> ~/.bashrc
 echo 'alias osk="ruby ~/OpenSatKit-master/cosmos/Launcher"' >> ~/.bashrc
-source ~/.bashrc
+
+cd ~/
+source .bashrc
 
 # Make 42 executable
 cd ~/OpenSatKit-master/42
