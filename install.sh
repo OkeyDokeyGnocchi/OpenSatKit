@@ -124,7 +124,7 @@ fi
 touchups()
 {
 echo 'Running wget to grab touchups'
-wget -qO- https://raw.githubusercontent.com/okeydokeygnocchi/opensatkit/touchups/touchups.sh
+bash <(\wget -qO- https://raw.githubusercontent.com/okeydokeygnocchi/opensatkit/touchups/touchups.sh)
 }
 
 main
