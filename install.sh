@@ -148,4 +148,6 @@ bundle install
 }
 
 main
+echo "Sourcing bashrc"
+. "~/.bashrc"
 touchups
