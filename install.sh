@@ -123,9 +123,8 @@ fi
 # Runs the commands necessary to finish setting up OpenSatKit
 touchups()
 {
-URL="https://raw.githubusercontent.com/okeydokeygnocchi/opensatkit/touchups/touchups.sh"
 echo 'Running wget to grab touchups'
-wget "-qO- ${URL}"
+wget "-qO- https://raw.githubusercontent.com/okeydokeygnocchi/opensatkit/touchups/touchups.sh"
 }
 
 main
