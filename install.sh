@@ -128,6 +128,7 @@ bash <(\wget -qO- https://raw.githubusercontent.com/okeydokeygnocchi/opensatkit/
 }
 
 main
+RC_PATH="$(readlink -f ~/.bashrc)"
 echo "Sourcing bashrc"
-. "~/.bashrc"
+. "${RC_PATH}"
 touchups
